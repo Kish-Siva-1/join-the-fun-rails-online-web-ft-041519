@@ -1,4 +1,4 @@
-class CreatePassengers < ActiveRecord::Migration[5.2]
+class CreatePassengers < ActiveRecord::Migration
   def change
     create_table :passengers do |t|
       t.timestamps null: false
